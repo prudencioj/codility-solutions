@@ -1,3 +1,7 @@
+package com.prudencio;
+
+import java.lang.Integer;
+
 /*
 Binary Gap.
 A binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
@@ -19,8 +23,6 @@ Complexity:
 expected worst-case time complexity is O(log(N));
 expected worst-case space complexity is O(1).
 */
-import java.lang.Integer;
-
 class Solution {
     public int solution(int N) {
         int s = N;
